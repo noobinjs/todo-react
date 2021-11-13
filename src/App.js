@@ -6,9 +6,9 @@ import Loading from './Loading';
 
 function App() {
   const [todos, setTodos] = useState([
-    { id: 1, title: 'Купить хлеб', completed: false },
-    { id: 2, title: 'Купить масло', completed: true },
-    { id: 3, title: 'Купить зерно', completed: false },
+    // { id: 1, title: 'Купить хлеб', completed: false },
+    // { id: 2, title: 'Купить масло', completed: true },
+    // { id: 3, title: 'Купить зерно', completed: false },
   ]);
   const [load, setLoad] = useState(true)
 
@@ -30,6 +30,7 @@ function App() {
 
         } ])
      )
+     console.log(todos)
    }
   function todoRemove(id) {
     // eslint-disable-next-line

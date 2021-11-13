@@ -18,8 +18,8 @@ export default function AddTodo() {
     
     return(
         <form onSubmit={(e)=> submitHandler(e)}>
-                <input class="form-control mt-5" value={value} onChange={(e)=>setValue(e.target.value)}/>
-                <button class="btn btn-primary" >Add task</button>
+                <input className="form-control mt-5" value={value} onChange={(e)=>setValue(e.target.value)}/>
+                <button className="btn btn-primary" >Add task</button>
 
         </form>
     )
